@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_BULK_WS_URL":   "wss://api.early.bulk.trade/ws",
+    "NEXT_PUBLIC_BULK_API_URL":  "https://api.early.bulk.trade",
+    "NEXT_PUBLIC_ORIGIN_URL":    "https://early.bulk.trade",
+    "NEXT_PUBLIC_PRIVY_APP_ID":  "cmbuls93q01jol20lf0ak0plb",
+    "NEXT_PUBLIC_PRIVY_URL":     "https://auth.privy.io/api/v1"
+  }
+}
